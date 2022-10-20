@@ -2,6 +2,9 @@ package day01;
 
 import java.util.Scanner;
 
+/**
+ * 代码记得格式化   快捷键  ctrl+alt+l
+ */
 public class Work2 {
 
     public static void main(String[] args) {
