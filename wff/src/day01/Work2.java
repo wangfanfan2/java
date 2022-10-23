@@ -8,6 +8,10 @@ import java.util.Scanner;
 public class Work2 {
 
     public static void main(String[] args) {
+
+
+
+
         //1.提示并接受用户输入的存款金额
         System.out.println("请您输入你要存款的金额（元）：");
         double money=new Scanner(System.in).nextDouble();
