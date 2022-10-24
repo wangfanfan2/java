@@ -8,10 +8,6 @@ import java.util.Scanner;
 public class Work2 {
 
     public static void main(String[] args) {
-
-
-
-
         //1.提示并接受用户输入的存款金额
         System.out.println("请您输入你要存款的金额（元）：");
         double money=new Scanner(System.in).nextDouble();
@@ -22,7 +18,7 @@ public class Work2 {
         double outMoney=0;
         //4.使用if语句判断并根据利率和年限分别计算本息总额
         if (year==1&&money>=1000) {
-        //一年期本息总额
+            //一年期本息总额
 
             outMoney=money+money*2.25/100*year;
 
